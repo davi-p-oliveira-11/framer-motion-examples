@@ -1,5 +1,5 @@
 import { motion, useSpring } from "framer-motion";
-import { ChangeEvent } from "react";
+import type { ChangeEvent } from "react";
 
 const RangeSlider = () => {
   const scale = useSpring(1);

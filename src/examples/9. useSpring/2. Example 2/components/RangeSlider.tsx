@@ -1,5 +1,5 @@
 import { motion, useSpring, useTransform } from "framer-motion";
-import { ChangeEvent } from "react";
+import type { ChangeEvent } from "react";
 
 const ColorChanger = () => {
   const hue = useSpring(0, { stiffness: 300, damping: 30 });
